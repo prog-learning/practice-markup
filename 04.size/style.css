@@ -1,0 +1,40 @@
+.box1 {
+  border-radius: 4px;
+  margin: 8px;
+  padding: 4px;
+  background-color: #000;
+}
+.box2 {
+  width: 600px;
+  border-radius: 4px;
+  margin: 8px;
+  padding: 4px;
+  background-color: #ccc;
+}
+.box3 {
+  width: 600px;
+  border-radius: 4px;
+  margin: 8px;
+  padding: 4px;
+  background-color: #ccc;
+}
+.box4 {
+  border-radius: 4px;
+  margin: 8px;
+  padding: 4px;
+  background-color: #ccc;
+}
+.box5 {
+  border-radius: 4px;
+  margin: 8px;
+  padding: 4px;
+  background-color: #ccc;
+}
+
+.tomato-box {
+  border: 2px solid #000;
+  border-radius: 4px;
+  margin: 8px;
+  padding: 4px;
+  background-color: tomato;
+}

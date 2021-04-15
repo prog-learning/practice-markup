@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h2>menu</h2>
+  <ol id="menu"></ol>
+</body>
+
+<script>
+  const sections = [
+    'Introduction',
+    'box_model',
+    'font',
+    'size',
+    'display',
+    'background',
+    'flexbox',
+    'position',
+    'box-shadow',
+    'border-sizing',
+    'pseudo_elements',
+  ]
+
+  sections.forEach((section, index) => {
+    const indexOfSection = index + 1
+    const indexOfSectionString = String(indexOfSection).length === 1 ? '0' + String(indexOfSection) : String(indexOfSection)
+    console.log(indexOfSectionString)
+    const menuItem = document.createElement('li')
+    menuItem.innerHTML = `<a href='${indexOfSectionString + '.' + section}/index.html'>${section}</a>`
+    document.getElementById('menu').appendChild(menuItem)
+  })
+</script>
+
+</html>

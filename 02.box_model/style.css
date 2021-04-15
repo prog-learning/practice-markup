@@ -1,0 +1,11 @@
+.room {
+  border: 8px double #000;
+  border-radius: 20px;
+  padding: 4px;
+}
+
+.woman {
+  width: 200px;
+  border: 4px solid #999;
+  border-radius: 12px;
+}
