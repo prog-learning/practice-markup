@@ -4,6 +4,7 @@ footer {
 }
 small {
   text-align: center;
+  color: white;
   display: block;
 }
 
@@ -15,6 +16,7 @@ small {
   justify-content: space-around;
 }
 .menu-item {
+  color: white;
   transition: all 0.5s ease;
 }
 .menu-item:hover {
